@@ -13,9 +13,11 @@ This Helm chart is a lightweight way to configure and run the official [OpenSear
 
 This chart is tested with the latest 1.0.0-rc1 version.
 
-* Clone this repo
-* Install it:
-    - with Helm 3: `helm install oss ./Helm/opensearch`
+```
+❯ helm repo add opensearch https://opensearch-project.github.io/opensearch-devops
+❯ helm install opensearch opensearch/opensearch
+```
+
 
 ## Usage notes
 
